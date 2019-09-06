@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.min.css">
+	<title>DZ</title>
+</head>
+<body>
+	<h1 id="top">Prinsengracht canal apartment</h1>
+	<ul>
+		<li><a href="index.html">Главная страница</a></li>
+		<li><a href="photo.html">Фотогалерея</a></li>
+		<li><a href="contacts.html">Контакты</a></li>
+		<li><a href="booking.html">Бронирование</a></li>
+	</ul>
+	<h2>Бронирование номера</h2>
+	<h3>Основные данные</h3>
+	<form>
+	<label for="fio" >Ваше Ф.И.О</label>		
+	<input type="text" id="fio" name="fio" required>
+
+	<label for="email">E-mail</label>
+	<input type="email" id="email" name="email" required>
+
+	<label for="phone">Телефон</label>
+  <input type="text" id="phone" name="phone" required>
+ <br><br>
+	<label for="date_from">Дата заезда</label>
+	<input type="date" id="date_from" name="date_from" required>
+
+	<label for="date_till">Дата отъезда</label>
+	<input type="date" id="date_till" name="date_till" required>
+  <br><br>
+	<label for="room">Тип номера</label>
+	<select name="room" id="room">
+		<option value="1">Одноместный номер</option>
+		<option value="2">Двухместный номер</option>
+		<option value="3">Трёхместный номер</option>
+		<option value="4">Четырёхестный номер</option>
+		<option value="5">Пятиместный номер</option>
+		<option value="6" >Шестиместный номер</option>
+	</select>
+
+	<label for="adults">Количество взрослых</label>
+	<select name="adults" id="adults">
+		<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+	  </select>
+
+		<label for="child">Количество детей</label>
+		<select name="child"  id="child">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+	  </select>
+
+		<h2>Тип поездки</h2>
+		<input type="radio" id="business" name="trip" value="business">
+		<label for="business">Бизнес</label> 
+
+		<input type="radio" id="resort" name="trip" value="resort">
+		<label for="resort">Отдых</label>
+
+		<h3>Дополнительные опции</h3>
+
+		<input type="checkbox" id="option1" name="option1">
+		<label for="option1">Трансфер из аэропорта</label>
+	  <br>
+
+		<input type="checkbox" id="option2" name="option2">
+		<label for="option2">Аренда скутера</label>
+	  <br>
+
+		<input type="checkbox" id="option3" name="option3">
+		<label for="option3">Аренда автомобиля</label>
+	  <br>
+
+		<input type="checkbox" id="option4" name="option4">
+		<label for="option4">Экскурсии</label>
+	  <br><br>
+ 
+		<label for="comment"></label>
+		<textarea name="name" id="comment" cols="50" rows="10"></textarea>
+		<br><br>
+
+		<input type="submit" value="Забронировать номер" class="submit">
+	</form>
+
+	<p class="source"><a href="https://www.booking.com/hotel/nl/" target="_blank">Источник</a></p>
+	<p class="top"><a href="#top">Наверх</a></p>
+
+</body>
+</html>
