@@ -10,7 +10,7 @@ Testing
     Навигация по странице, плавный page scroll
 
 
-[Онлайн демо](https://github.com/Esmiral/beauty-holiday-hotel.git)
+[Онлайн демо](https://esmiral.github.io/beauty-holiday-hotel/)
 
 Тестировать локально
 
